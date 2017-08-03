@@ -1,0 +1,44 @@
+/*
+Plugin Name: FourSquare + Google Maps
+Plugin URI: http://system.damakhijau.com/
+Description: Integrate google maps api with foursquare api to create an attractive and meaningful maps.
+Author: Sanusi Yaakub
+Version: 1.0
+Author URI: http://system.damakhijau.com/
+*/
+
+.fsqrgo-nearby,
+.fsqrgo-main {
+	background: none repeat scroll 0 0 #E5FFE5;
+	border-left: 3px solid #008800;
+	box-shadow: 1px 1px 2px #CCCCCC;
+	display: block;
+	padding: 3px;
+	white-space: nowrap;
+}
+.fsqrgo-main{ margin-bottom: 5px; }
+ul.fsqrgo-tips {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+ul.fsqrgo-tips li {
+	clear: both;
+	content: ".";
+	width: 300px;
+}
+ul.fsqrgo-tips li .fsqrgo-tips-dp {
+	float: left;
+	margin-right: 5px;
+}
+#fsqrgo img,
+ul.fsqrgo-tips li .fsqrgo-tips-dp > img {
+	
+}
+ul.fsqrgo-tips li .fsqrgo-tips-name {
+	color: #008800;
+	font-weight: bold;
+}
+ul.fsqrgo-tips li .fsqrgo-tips-text {
+	font-style: italic;
+}
